@@ -42,7 +42,7 @@ end
 mysql_database_user 'db_admin' do
   connection(
     :host => node['starof_customers']['database']['host'],
-    :username => node['starof_customers']['database']['app']['username'],
+    :username => node['starof_customers']['database']['username'],
     :password => root_password_data_bag_item['password']
   )
   password user_password_data_bag_item['password']

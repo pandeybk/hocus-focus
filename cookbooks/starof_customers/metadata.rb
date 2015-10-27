@@ -4,7 +4,7 @@ maintainer_email 'sachit.nep@gmail.com'
 license 'all_rights'
 description 'Installs/Configures starof_customers'
 long_description 'Installs/Configures starof_customers'
-version '0.2.2'
+version '0.2.6'
 
 depends 'apt', '~> 2.9.1'
 depends 'httpd', '~> 0.3.0'
